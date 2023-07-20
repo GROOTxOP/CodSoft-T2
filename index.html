@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaurav-Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Poppins:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(26, 7, 44);
+            color: white;
+            font-family: 'Fira Sans', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 75px;
+            background-color: rgb(132, 60, 196);
+        }
+
+        .left {
+            font-size: 2rem;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(0, 0, 0);
+            font-size: 1.25rem;
+        }
+
+        .hr1 {
+            border: 0;
+            background-color: rgb(56, 76, 177);
+            height: 1.2px;
+            margin: 35px 84px;
+
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 130px 0;
+            align-items: center;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 3rem;
+        }
+
+        .leftsection .btn {
+            padding: 15px;
+            background: rgb(132, 60, 196);
+            color: white;
+            border: 2px solid white;
+            border-radius: 10px;
+            font-size: 17px;
+            cursor: pointer;
+        }
+
+        .leftsection .btn a {
+            text-decoration: none;
+            color: white;
+        }
+
+
+        .leftsection .btn :hover {
+            font-size: 1.25rem;
+        }
+
+
+        .rightsection img {
+            width: 95%;
+        }
+
+        .purple {
+            color: rgb(56, 76, 177);
+        }
+
+        .text-gray {
+            text-align: right;
+            color: gray;
+            font-size: 30px;
+        }
+
+        #element {
+            color: rgb(56, 76, 177);
+        }
+
+        .secondsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 40px;
+            align-items: center;
+        }
+
+        .rightsection2 img {
+            width: 280px;
+
+        }
+
+        .leftsection2 {
+            font-size: 30px;
+            text-align: center;
+
+        }
+
+
+        .aboutme {
+            text-align: center;
+        }
+
+        .thirdsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 40px;
+            align-items: center;
+        }
+
+        .whatido {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .rightsection3 {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .leftsection3 img {
+            width: 360px;
+        }
+
+
+
+        .last-work .hr2 {
+            margin: 35px 550px;
+            border-top: 5px dotted white;
+            border-bottom: none;
+        }
+
+        .fourthsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 40px;
+            align-items: center;
+        }
+
+        .last-work {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .rightsection4 {
+
+            font-size: 34px;
+        }
+
+        .leftsection4 {
+            font-size: 30px;
+        }
+
+        .leftsection4 .btn {
+            padding: 15px;
+            background: rgb(132, 60, 196);
+            color: white;
+            border: 2px solid white;
+            border-radius: 10px;
+            font-size: 17px;
+            cursor: pointer;
+        }
+
+        .letsworktogether {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .fifthsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 116px 230px;
+            align-items: center;
+        }
+
+
+
+
+
+        footer {
+            background-color: rgb(132, 60, 196);
+            height: 115px;
+        }
+
+        .fotter {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            margin: 40px 122px;
+        }
+
+
+        .footer-second {
+            margin: 10px 50px;
+            justify-content: space-around;
+            text-align: center;
+
+        }
+
+        .s1 {
+            margin-right: 80px;
+            cursor: pointer;
+        }
+
+        .s2 {
+            margin: 40px;
+            cursor: pointer;
+        }
+
+        .s3 {
+            margin-left: 80px;
+            cursor: pointer;
+        }
+
+        .footer-second a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .footer-second a:hover {
+            color: rgb(0, 0, 0);
+            font-size: 1.25rem;
+        }
+
+        .form-container {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 60px;
+            background-color: rgb(132, 60, 196);
+            border: 2px solid transparent;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgb(4, 61, 250);
+            text-shadow: 0 0 5px rgb(255, 255, 255);
+        }
+
+        .form-container:hover {
+            border-color: #000000;
+        }
+
+        .form-container label {
+            color: #000000;
+            font-size: 20px;
+        }
+
+        .form-container h2 {
+            color: #000000;
+            text-align: center;
+            font-size: 35px;
+        }
+
+
+        .form-container input,
+        .form-container textarea,
+        .form-container button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            border: 1px solid #170303;
+            border-radius: 4px;
+
+        }
+
+        .form-container button {
+            background-color: #ffffff;
+            color: rgb(0, 0, 0);
+            cursor: pointer;
+        }
+
+        .form-container button:hover {
+            background-color: #e89f4c;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"><img src="R1.svg" alt=""></div>
+            <div class="right">
+                <ul>
+                    <li> <a href="">Home</a></li>
+                    <li> <a href="">About</a></li>
+                    <li> <a href="">Services</a></li>
+                    <li> <a href="">Project</a></li>
+                    <li> <a href="">content Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, I am <span class="purple">GAURAV</span>
+                <div>And I'm A Passionate </div>
+                <span id="element"></span>
+                <br><br>
+                <div class="buttons">
+                    <button class="btn"><a
+                            href="https://drive.google.com/file/d/1lfyYgpXAtYXyaYAtzkcXqgkaR_LcE6kE/view usp=sharing">Download
+                            Resume</a></button>
+
+                    <button class="btn"><a href="https://wa.me/9763473053?text=">Contact Me</a></button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="bg.png" alt="Gaurav">
+            </div>
+        </section>
+        <hr class="hr1">
+        <div class="aboutme">
+            <span class="text-gray">ABOUT ME !</span>
+        </div>
+        <section class="secondsection">
+            <div class="rightsection2">
+                <img src="MY.png" alt="Gaurav">
+            </div>
+            <div class="leftsection2">I am skilled in Core Java, MySQL, Hibernate,
+                <br> SpringBoot, HTML, CSS, JavaScript.
+            </div>
+        </section>
+        <hr class="hr1">
+
+
+        <div class="whatido">
+            <span class="text-gray">WHAT I DO...</span>
+        </div>
+        <section class="thirdsection">
+            <div class="rightsection3">Passionate and Driven Full Stack Developer
+                <br> with Good analytical and
+                <br> problem solving skills.Seeking Opportunities to Contribute
+                <br>and Learn in the Dynamic World of
+                <br>Software Development
+            </div>
+
+            <div class="leftsection3">
+                <img src="sec3.com.png" alt="">
+            </div>
+
+        </section>
+
+
+        <div class="last-work">
+            <hr class="hr2">
+            <span class="text-gray">MY LATEST WORK</span>
+        </div>
+        <section class="fourthsection">
+            <div class="leftsection4">
+                <div>View All Projects</div>
+                <br><br>
+                <div class="buttons">
+                    <button class="btn">See Project</button>
+                </div>
+            </div>
+            <div class="rightsection4">Here are a few design projects I've worked on recently.
+                <br> The used technologies are React.js, Node.js, HTML, CSS,
+                <br> JavaScript, Bootstrap, Material UI, Framer Motion, etc.
+            </div>
+        </section>
+
+        <hr class="hr1">
+
+
+        <div class="letsworktogether">
+            <span class="text-gray">GET IN TOUCH <br>LETS WORK TOGETHER</span>
+        </div>
+        <section class="fifthsection">
+            <div class="form-container">
+                <h2>Contact Me</h2>
+                <br><br>
+                <form>
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+
+        </section>
+
+    </main>
+    <footer>
+        <div>
+            <div class="fotter">
+                <div class="footer-first">
+                    <h3>Gaurav's Portfolio</h3>
+                </div>
+            </div>
+
+            <div class="footer-second">
+                <span class="s1"><a href="https://www.linkedin.com/in/gaurav-salunkhe-34a75b19a/">LinkedIn</a></span>
+                <span class="s2"><a href="https://www.instagram.com/o_._gaurav_._o/">Instagram</a></span>
+                <span class="s3"><a href="https://github.com/GROOTxOP">Github</a></span>
+            </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', ' Java Developer.', 'Full Stack Developer.'],
+            typeSpeed: 80,
+        });
+    </script>
+</body>
+
+</html>
